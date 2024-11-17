@@ -1,0 +1,27 @@
+{
+  "train_batch_size": "auto",
+  "train_micro_batch_size_per_gpu": "auto",
+  "gradient_accumulation_steps": "auto",
+  "optimizer": {
+    "type": "Adam",
+    "params": {
+      "lr": "auto",
+	  "betas": [
+        0.9,
+        0.95
+      ],
+	  "eps": "auto",
+	  "weight_decay": "auto"
+    }
+  },
+  "fp16": {
+    "enabled": "auto"
+  },
+  "bf16": {
+   "enabled": "auto"
+ },
+  "zero_optimization":
+  {
+	  "stage": 2
+  }
+}

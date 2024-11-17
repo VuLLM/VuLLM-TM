@@ -1,0 +1,64 @@
+*.csv
+*.c
+*.cpython-310.pyc
+TensorBoard/
+.neptune/
+local_model/
+apex/
+saved_models/
+.vscode/
+*.pkl
+*.bin
+*.model
+*.pt
+*.pyc
+
+# # Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# # C extensions
+*.so
+
+# # Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# # Unit test / coverage reports
+.cache
+
+# # Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# # Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+connected_models/Datasets/diversevul_20230702.json
+
+
