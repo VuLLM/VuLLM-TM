@@ -94,11 +94,16 @@ pip install -r requirements.txt
 
   ## Download Models
 <a id="model-table1"></a>
-  - Download Fine-tuned model for table 1 (fine-tuned on VulGen dataset):[VuLLM fine-tuned on VulGen](https://drive.google.com/file/d/145QiDo1MI60ewsLbRFwXJWAycWLz9uns/view?usp=sharing)
-  - Download Fine-tuned model on VuLLM Dataset shorter than 5:[VuLLM shorter than 5](https://drive.google.com/file/d/1tu3BTaPrKnkB8fdKYfFMwTMSSfxAT1Uy/view?usp=sharing)
-  - Download Fine-tuned model on VuLLM Dataset shorter than 10:[VuLLM shorter than 10](https://drive.google.com/file/d/1grzsfX1xBcjc8C_I8EAKbwJJXfJ02Awd/view?usp=sharing)
-  - Download Fine-tuned model on VuLLM Dataset shorter than 20:[VuLLM shorter than 20](https://drive.google.com/file/d/1JeRjE3HeOg4E95efIfl0xzUvGuNVeIjL/view?usp=sharing)
-  - Download Fine-tuned model on VuLLM Dataset shorter than 30:[VuLLM shorter than 30](https://drive.google.com/file/d/1-jpCV-lZx7CEAEmSnUSwyJNIe_XHaedt/view?usp=sharing)
+  - Download Fine-tuned injection model for table 1 (injection fine-tuned on VulGen dataset):[injection VuLLM fine-tuned on VulGen](https://drive.google.com/file/d/1HsW4rtWKzgwDmR3JWoazLmQTxvbOhlgx/view?usp=sharing)
+  - Download Fine-tuned localization model for table 1 (localization fine-tuned on VulGen dataset):[localization VuLLM fine-tuned on VulGen](https://drive.google.com/file/d/1Xqa6PurNAp-yXKIXd1jRZ3d3vW2CJPmQ/view?usp=sharing)
+  - Download Fine-tuned injection model on VuLLM Dataset shorter than 5:[injection VuLLM shorter than 5](https://drive.google.com/file/d/16Ir-zJYX395pLGHlNLMtCR4LP8u2YrkP/view?usp=sharing)
+  - Download Fine-tuned localization model on VuLLM Dataset shorter than 5:[localization VuLLM shorter than 5](https://drive.google.com/file/d/1RKGrkKqSGYgKViEn0dr30K_Rf0yIHe2q/view?usp=sharing)
+  - Download Fine-tuned injection model on VuLLM Dataset shorter than 10:[injection VuLLM shorter than 10](https://drive.google.com/file/d/1k9u3j8Dj1gAW2GfE09SArHEkNuLWo1yq/view?usp=sharing)
+  - Download Fine-tuned localiztion model on VuLLM Dataset shorter than 10:[localiztion VuLLM shorter than 10](https://drive.google.com/file/d/1lFvRaziZy4ZVubRxf9EIwN3yS0SONYhb/view?usp=sharing)
+  - Download Fine-tuned injection model on VuLLM Dataset shorter than 20:[injection VuLLM shorter than 20](https://drive.google.com/file/d/1imKD-nVemKp9b-uZMeWatPvnk3JxOKQQ/view?usp=sharing)
+  - Download Fine-tuned localiztion model on VuLLM Dataset shorter than 20:[localiztion VuLLM shorter than 20](https://drive.google.com/file/d/1jC1S4MMuKjdXBSJKsUU3XdS7jsOJ1A0Z/view?usp=sharing)
+  - Download Fine-tuned injection model on VuLLM Dataset shorter than 30:[injection VuLLM shorter than 30](https://drive.google.com/file/d/1dxxQO2194C953ZZKEvrZTaTbwZ0V5aS0/view?usp=sharing)
+  - Download Fine-tuned localiztion model on VuLLM Dataset shorter than 30:[localiztion VuLLM shorter than 30](https://drive.google.com/file/d/1RzB3F-P2BWxoOvrnXlazc7WkVA9cVv0j/view?usp=sharing)
 
 
 ## Usage
