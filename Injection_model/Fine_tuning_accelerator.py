@@ -19,7 +19,6 @@ def main(path_trainset, path_testset, is_vulgen, output_dir, learning_rate, per_
 
     # get model and tokenizer and desgin architecture of the model
     checkpoint = "Salesforce/codet5p-6b"
-    # peft_model_id = "urizlo/CodeT5-2B-lora-dropout-r32-batch2-6GPUs-lr1e-5-epochs25-allLinearsAdaptors"
     model, tokenizer = CodeT5p_6B.create_model_and_tokenizer(checkpoint)
 
     # read and tokenized data
