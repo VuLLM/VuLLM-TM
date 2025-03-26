@@ -7,7 +7,6 @@ import evaluate
 import os
 from dotenv import load_dotenv
 import sys
-sys.path.append('/sise/home/urizlo/VuLLM')
 from utils import Nxcode_7B, Create_lora_starCoder, Custom_SFTTrainer
 from localization_model.CodeT5p import Prepare_data_original
 import argparse
@@ -21,7 +20,6 @@ def main(path_trainset, path_testset, is_vulgen, output_dir, learning_rate, per_
     # get model and tokenizer and desgin architecture of the model
     checkpoint = "Qwen/CodeQwen1.5-7B"
     max_seq_length = 1450
-    # peft_model_id = "urizlo/CodeT5-2B-lora-dropout-r32-batch2-6GPUs-lr1e-5-epochs25-allLinearsAdaptors"
     model, tokenizer = Nxcode_7B.create_model_and_tokenizer_one_GPU(checkpoint)
     eos = tokenizer.eos_token
 
