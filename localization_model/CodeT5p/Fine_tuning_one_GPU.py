@@ -6,7 +6,6 @@ import evaluate
 import os
 from dotenv import load_dotenv
 import sys
-sys.path.append('/sise/home/urizlo/VuLLM')
 from utils import Custom_trainer, CodeT5p_6B, Create_lora
 from localization_model.CodeT5p import Prepare_data_original
 import argparse
@@ -17,7 +16,6 @@ def main(path_trainset, path_testset, is_vulgen, output_dir, learning_rate, per_
     load_dotenv()
     # get model and tokenizer and desgin architecture of the model
     checkpoint = "Salesforce/codet5p-6b"
-    # peft_model_id = "urizlo/CodeT5-2B-lora-dropout-r32-batch2-6GPUs-lr1e-5-epochs25-allLinearsAdaptors"
     model, tokenizer = CodeT5p_6B.create_model_and_tokenizer(checkpoint)
 
     # read and tokenized data
@@ -66,8 +64,6 @@ def main(path_trainset, path_testset, is_vulgen, output_dir, learning_rate, per_
         return result
 
     # config env varibles
-    os.environ["NEPTUNE_API_TOKEN"] = 'eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI4Y2VlNTFhZC1hODJkLTQ4NzItOTE0MS0yZmNkNWY3ZWE0MTEifQ=='
-    os.environ["NEPTUNE_PROJECT"] = 'zlotman/Localization-model'
     os.environ["NCCL_P2P_DISABLE"] = "1"
     os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
